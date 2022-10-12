@@ -1,0 +1,73 @@
+body {
+  background-color: #d0cad9;
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  justify-content: center;
+  align-items: center;
+  font-family: "Arial";
+  font-style: normal;
+  margin: 2rem 0 0 4rem;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.login-form label {
+  text-align: center;
+  margin: 0 0 0.5rem 0;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.login-form #username {
+  gap: 10px;
+
+  width: 400px;
+  height: 44px;
+  margin: 0 0 64px 0;
+  /* Back */
+
+  background: #d0cad9;
+  /* Black */
+
+  border: 1px solid #272727;
+
+  /* Inside auto layout */
+
+  flex: none;
+
+  flex-grow: 0;
+}
+
+.login-form #login {
+  padding: 8px 42px;
+  gap: 10px;
+  align-self: center;
+  width: 256px;
+  height: 44px;
+
+  /* H2 */
+
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  /* identical to box height */
+
+  /* White */
+
+  color: #f8f8f8;
+  /* Purple */
+
+  background: #800080;
+  /* Button Effect */
+
+  box-shadow: 4px 4px 16px rgba(39, 39, 39, 0.25),
+    inset -4px -4px 16px rgba(39, 39, 39, 0.1),
+    inset 4px 4px 16px rgba(39, 39, 39, 0.07);
+  border-radius: 4px;
+}
